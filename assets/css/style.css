@@ -79,12 +79,19 @@ body {
     display: block;
     width: 960px;      
     position: relative;
-    top: 50px;
+    top: 15px;
     left: 200px;
 }
 
 h2 {
     padding: 10px;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    color: rgb(110, 108, 108);
+}
+
+h3 {
+    padding: 20px;
     font-size: 40px;
     font-family: 'Times New Roman';
     color: rgb(110, 108, 108);
@@ -98,6 +105,37 @@ p {
     color: rgb(100, 98, 98);
 }
 
+.form {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: rgb(100, 98, 98);
+}
+
+.box {
+    width: 97.5%;
+    box-sizing: border-box;
+    resize: vertical;
+    padding: 8px;  
+}
+
+.msg {
+    width: 97.5%;
+    box-sizing: border-box;
+    resize: vertical;
+    padding: 85px;
+}
+
+button {
+    background-color: rgb(100, 98, 98);
+    color: white;
+    box-sizing: border-box;
+    width: 10%;
+    padding:10px;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+}
 .content::after {
     content: "";
     clear: both;
