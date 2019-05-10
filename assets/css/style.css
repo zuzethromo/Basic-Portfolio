@@ -163,6 +163,17 @@ body {
     display: block;
     padding: 5px;
     padding-top: 35px;
+    padding-right: 125px;
+    background-color: white;
+    color: rgb(110, 108, 108);
+    font-family: 'Times New Roman';
+}
+
+.about {
+    float: right;
+    display: block;
+    padding: 5px;
+    padding-top: 35px;
     background-color: white;
     color: rgb(110, 108, 108);
     font-family: 'Times New Roman';
@@ -178,17 +189,6 @@ body {
     font-family: 'Times New Roman';
 }
 
-.about {
-    float: right;
-    display: block;
-    padding: 5px;
-    padding-top: 35px;
-    padding-right: 125px;
-    background-color: white;
-    color: rgb(110, 108, 108);
-    font-family: 'Times New Roman';
-}
-
 .content {
     background-color: white;
     display: block;
@@ -196,7 +196,7 @@ body {
     position: relative;
     top: 15px;
     left: 200px;
-    margin: 50px;
+    margin: 70px;
 }
 
 h2 {
