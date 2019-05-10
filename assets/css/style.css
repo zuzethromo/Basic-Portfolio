@@ -142,6 +142,7 @@ body {
     text-align: center;
     padding: 15px;
     color: white;
+    border-top: 8px;
 }
 
 .ZR {
@@ -157,12 +158,11 @@ body {
     margin: auto;
 }
 
-.about {
+.contact {
     float: right;
     display: block;
     padding: 5px;
     padding-top: 35px;
-    padding-right: 95px;
     background-color: white;
     color: rgb(110, 108, 108);
     font-family: 'Times New Roman';
@@ -178,11 +178,12 @@ body {
     font-family: 'Times New Roman';
 }
 
-.contact {
+.about {
     float: right;
     display: block;
     padding: 5px;
     padding-top: 35px;
+    padding-right: 125px;
     background-color: white;
     color: rgb(110, 108, 108);
     font-family: 'Times New Roman';
